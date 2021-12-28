@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/common-resize.css">
+    <link rel="stylesheet" href="/fonts/Barlow/stylesheet.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <img src="/img/logo.svg" alt="" class="logo">
+        </div>
+    <div class="form-container">
+        <div class="form">
+            <div class="header-form">
+                <div class="description">
+                    <h1>Get iintoo it today</h1>
+                    <span class="title-description">There is no charge or obligation upon registration</span>
+                </div>
+                <div class="login-social-media">
+                    <button class="log-fb-btn btn">Register with facebook</button>
+                    <button class="log-in-btn btn">Register with Linkedln</button>
+                </div>
+            </div>
+            <div class="or">
+                <div class="line"></div>
+                <span>or</span>
+                <div class="line"></div>
+            </div>
+            <form id="form">
+                <label for="input">
+                    <div class="user-contacts">
+                        <div class="input-container">
+                            <span class="input-name">Email</span>
+                            <input type="email" class="user-email" id="input">
+                        </div>
+                        <div class="input-container">
+                            <span class="input-name">Phone</span>
+                            <input type="tel" class="user-phone">
+                        </div>
+                    </div>
+                </label>
+                <div class="type-of-investor">
+                    <div class="type-description">
+                        <h2 class="title-investor">What type of investor are you</h2>
+                        <span class="description-investor">Select the type of investor you are below.</span>
+                    </div>
+                    <div class="switch">
+                        <label for="individual" class="switch-label">
+                            <span class="switch-item"><input id="individual"type="radio" name="type-investor" value="individual"><div></div>Individual</span>
+                            <div class="interpretive-window-1 window"><span>I am a natural investing on my <br>own behalf as a sole owner, joint tenant, or tenant,<br> in common.</span></div>
+                        </label>
+                        <label id="Business" class="switch-label">
+                            <span class="switch-item"><input type="radio" id="Business" name="type-investor" value="Business"><div></div>Business</span>
+                            <div class="interpretive-window-2 window"><span>I am a natural investing on my <br>own behalf as a sole owner, joint tenant, or tenant,<br> in common.</span></div>
+                        </label>
+                        <label id="IRA" class="switch-label">
+                            <span class="switch-item"><input type="radio" id="IRA" name="type-investor" value="IRA"><div></div>IRA</span>
+                            <div class="interpretive-window-3 window"><span>I am a natural investing on my <br>own behalf as a sole owner, joint tenant, or tenant,<br> in common.</span></div>
+                        </label>
+                        <label id="Trust" class="switch-label">
+                            <span class="switch-item"><input type="radio" id="Trust" name="type-investor" value="Trust"><div></div>Trust</span>
+                            <div class="interpretive-window-4 window"><span>I am a natural investing on my <br>own behalf as a sole owner, joint tenant, or tenant,<br> in common.</span></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="terms-of-use">
+                    <label for="agreement">
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <span class="agreement">I agree to the terms and receiving notifications from iintoo <a href="#">View full terms</a></span>
+                    </label>
+                </div>
+                <button class="create-btn" type="submit" form="form">Create Account</button>
+            </form>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

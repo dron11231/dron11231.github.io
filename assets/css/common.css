@@ -1,0 +1,258 @@
+body {
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    padding: 2.5% 2% 0;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form { 
+    width: 44.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.title-description {
+    margin-top: 10px;
+    opacity: 0.9;
+    font-weight: 500;
+    display: block;
+}
+
+.login-social-media {
+    margin-top: 60px;
+    gap: 30px;
+    display: flex;
+}
+
+.btn {
+    padding: 14px 40px 14px 40px;
+    color: white;
+    border: none;
+    font-weight: 100;
+}
+
+.log-fb-btn {
+    background-color: #255A9B;
+    background-image: url(/img/facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 50%;
+    background-position-x: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(128, 199, 175); 
+}
+
+.log-in-btn {
+    background-color: #0076B6;
+    background-image: url(/img/linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: 50%;
+    background-position-x: 10px;
+}
+
+.or {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.or span { 
+    height: 12px;
+    line-height: 10px;
+}
+
+.line {
+    border: 1px solid #AFAFAF;
+    width: 100px;
+    background-color: #AFAFAF;
+    opacity: 0.5;
+}
+
+
+
+.user-contacts { 
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.user-contacts input {
+    padding: 20px 35px 10px 5px;
+    outline: none;
+    border: 1px solid #AFAFAF;
+    
+}
+.input-container {
+    position: relative;
+}
+
+.input-name {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.user-contacts input:focus {
+    border-left: 2px solid #0076B6;
+}
+
+
+
+.type-of-investor {
+    margin-top: 50px;
+    height: 270px;
+    margin-left: 60px;
+}
+
+.title-investor {
+    font-weight: 500;
+}
+
+.description-investor {
+    font-size: 14px;
+    font-weight: 500;
+    color: #AFAFAF
+}
+
+.switch {
+    display: flex; 
+    gap: 40px;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+    input[type='radio']:checked:after {
+        width: 8px;
+        height: 8px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #fff;
+        content: '';
+        display: inline-block;
+        border: 4px solid #0076B6;
+    }
+
+
+
+.switch-label:hover .window {
+    animation-name: visibility;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.window {
+    padding: 10px 10px 15px 10px;
+    color: #AFAFAF;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0;
+    -webkit-box-shadow: 0px 4px 26px -3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 4px 26px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 4px 26px -3px rgba(34, 60, 80, 0.2);
+}
+
+.interpretive-window-1 {
+    position: absolute;
+    top: 40px;
+    left: 10px; 
+}
+
+.interpretive-window-2 {
+    position: absolute;
+    top: 40px;
+    left: 140px; 
+}
+
+.interpretive-window-3 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.interpretive-window-4 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.switch-item div {
+    display: inline-block;
+    width: 5px;
+}
+
+.terms-of-use {
+    margin-left: 60px;
+}
+
+.agreement {
+    color:#AFAFAF;
+}
+
+.agreement a {
+    color:#3698FB;
+}
+
+.create-btn {
+    align-self: flex-start;
+    margin-left: 69px;
+    margin-top: 50px;
+    background-color: #3698FB;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 50px 10px 50px;
+}
+
+.create-btn:hover {
+    background-color: rgb(47, 47, 252);
+}
+
+@keyframes visibility {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

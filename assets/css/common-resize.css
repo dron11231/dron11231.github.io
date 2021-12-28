@@ -1,0 +1,70 @@
+@media screen and (max-width: 1920px) and (min-width: 1700px) {
+    .form {
+        width: 60.5%;
+    }
+
+    h1 { 
+        font-size: 60px;
+    }
+
+    .title-description {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 18px 42px 18px 42px;
+    }
+
+    .or {
+        font-size: 24px;
+    }
+
+    .input-name {
+        font-size: 20px;
+    }
+
+    .user-contacts input {
+        padding: 25px 40px 15px 5px; 
+        font-size: 19px;
+    }
+
+    .type-of-investor {
+        margin-left: 85px;
+    }
+
+    .title-investor {
+        font-size: 36px;
+    }
+
+    .description-investor {
+        font-size: 24px;
+    }
+
+    .switch-item {
+        font-size: 24px;
+    }
+
+    .window {
+        font-size: 22px;
+        padding: 15px 15px 20px 15px;
+    }
+
+    .terms-of-use {
+        margin-left: 85px;
+    }
+
+    .agreement {
+        font-size: 24px;
+    }
+
+    input[type="checkbox"] {
+        width: 16px;
+        height: 16px;
+    }
+
+    .create-btn {
+        margin-left: 85px;
+        font-size: 26px;
+    }
+}
